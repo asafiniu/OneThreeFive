@@ -1,0 +1,60 @@
+#content {
+    text-align:center;
+    width:50%;
+    position:relative;
+    margin:0 auto;
+}
+.item {
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 5px;
+}
+.one {
+    border-width: 5px;
+    content: "1";
+}
+.three {
+    border-width: 3px;
+    content: "3";
+}
+.five {
+    border-width: 1px;
+    content: "5";
+}
+.done {
+    border-color: grey;
+    text-decoration: line-through;
+}
+#clock {
+    width: 50%;
+    height: 50px;
+    display: block;
+    position: relative;
+    margin: 100px auto;
+}
+.clockBack {
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+    background: transparent;
+}
+.clockValue {
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    z-index: 9;
+    position: relative;
+    height: 100%;
+    vertical-align: middle;
+    line-height: 50px;
+}
+.clockFill {
+    width: 0;
+    height: 100%;
+    background: green;
+    top: -100%;
+    position: relative;
+}
